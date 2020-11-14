@@ -267,6 +267,6 @@ sim_results %>%
 
 For mu = 0, 4, 5, and 6, the sample average of mu-hat is approximately equal to the true value of mu. For mu = 1, 2, and 3, the sample average of mu-hat is higher than the the true value of mu -- and the magnitude of this overestimation decreases as the true value of mu increases.
 
-Focusing on mu = 1, 2, 3, 4, 5, and 6, my interpretation is that, since power decreases as effect size decreases, positive results are less likely to be "true" positives as effect size decreases. In other words, when the true mu is lower, the estimates that are able to reach the threshold of significance are quite high relative to the true mean, causing an inflation of the average estimate when we only consider the positive results. This inflation that we see dissipates as the true mean increases.
+Focusing on mu = 1, 2, 3, 4, 5, and 6, my interpretation is that, as effect size and thus power decrease, positive results are more likely to overestimate the true mu. In other words, when the true mu is lower, the estimates that are able to reach the threshold of significance are quite high relative to the true mean, causing an inflation of the average estimate if we only consider the positive results. This inflation that we see dissipates as the true mean increases.
 
 Regarding mu = 0, I presume that the estimates that reached the threshold of significance were distributed symmetrically about 0 and effectively "canceled" each other out.
